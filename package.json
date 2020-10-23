@@ -1,0 +1,32 @@
+{
+  "name": "chattt",
+  "version": "0.2.0",
+  "description": "Chattt",
+  "main": "index.js",
+  "bin": {
+    "chattt": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aviaryan/chattt.git"
+  },
+  "keywords": [
+    "chat",
+    "socket",
+    "socketio"
+  ],
+  "author": "Avi Aryan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aviaryan/chattt/issues"
+  },
+  "homepage": "https://github.com/aviaryan/chattt#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "socket.io-client": "^2.0.4"
+  }
+}
