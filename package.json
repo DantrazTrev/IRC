@@ -1,0 +1,25 @@
+{
+  "name": "IRC",
+  "version": "0.2.0",
+  "description": "wer",
+  "main": "index.js",
+  "bin": {
+    "chattt": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "socket",
+    "socketio"
+  ],
+  "author": "Choran I",
+  "license": "MIT",
+  "bugs": {},
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "socket.io-client": "^2.0.4"
+  }
+}
